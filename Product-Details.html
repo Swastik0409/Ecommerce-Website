@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>All Products - FashionHouse</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;600&family=Tektur:wght@600&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        
+       
+           
+        <div class="container">
+            
+            <div class="navbar">
+                
+            <div class="logo">
+                <img src="C:\Users\KIIT\Desktop\Teachnook Major Project\Problem Statement 1\Images/Logo.jpeg" width="200px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Product.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="Account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="C:\Users\KIIT\Desktop\Teachnook Major Project\Problem Statement 1\Images/cart.png" width="30px" height="30px">
+        </div>  
+        
+        </div>
+<!--------Single Product Details------->
+        <div class="small-container single-product">
+            <div class="row">
+                <div class="col-2">
+                    <img src="C:\Users\KIIT\Desktop\Teachnook Major Project\Problem Statement 1\Images/Shoe1.jpg" width="100%" id="productimg">
+                    <div class="small-img-row">
+                        <div class="small-img-col">
+                            <img src="C:\Users\KIIT\Desktop\Teachnook Major Project\Problem Statement 1\Images/Shoe1.1.jpg" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="C:\Users\KIIT\Desktop\Teachnook Major Project\Problem Statement 1\Images/Shoe1.2.jpg" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="C:\Users\KIIT\Desktop\Teachnook Major Project\Problem Statement 1\Images/Shoe1.3.jpg" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="C:\Users\KIIT\Desktop\Teachnook Major Project\Problem Statement 1\Images/Shoe1.4.jpg" width="100%" class="small-img">
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-2">
+                    <p>Home/ Shirt</p>
+                    <h1>Grey Black Striped Shirt</h1>
+                    <h4>3,500.00 INR</h4>
+                    <select>
+                        <option>Select Size</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                    <input type="number" value="1">
+                    <a href="" class="btn">Add to Cart</a>
+                    <h3>Product Details</h3>
+                    <p>Grey vertical stripes striped opaque Casual shirt ,has a spread collar, button placket, short regular sleeves, curved hem.</p>
+                </div>
+            </div>
+        </div>
+        
+<!-------------Title---------------->
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>Related Products</h2>
+                <p>View More</p>
+            </div>
+        </div>
+ <!-------Products------------>       
+        <div class="small-container">
+            <div class="row">
+                <div class="col-4">
+                    <img src="C:\Users\KIIT\Desktop\Teachnook Major Project\Problem Statement 1\Images/Shoe10.jpg">
+                    <h4>FOSSIL Townsman Analog Watch</h4>
+                    <p>18,500.00 INR</p>
+                </div>
+                <div class="col-4">
+                    <img src="C:\Users\KIIT\Desktop\Teachnook Major Project\Problem Statement 1\Images/Shoe2.jpg">
+                    <h4>Hector Hair Dryer</h4>
+                    <p>10,000.00 INR</p>
+                </div>
+                <div class="col-4">
+                    <img src="C:\Users\KIIT\Desktop\Teachnook Major Project\Problem Statement 1\Images/Shoe3.jpg">
+                    <h4>Air Jordan 1 Retro High OG</h4>
+                    <p>17,500.00 INR</p>
+                </div>
+                <div class="col-4">
+                    <img src="C:\Users\KIIT\Desktop\Teachnook Major Project\Problem Statement 1\Images/Shoe4.jpg">
+                    <h4>Women's Tall Ripped Knee Mid Rise Bagg Jeans</h4>
+                    <p>5,500.00 INR</p>
+                </div>
+            </div>
+
+
+    </div>
+
+<!  -------- js for product gallery-------->
+    <script>
+        var productimg = document.getElementById("productimg");
+        var smallimg=document.getElementsByClassName("small-img");
+        smallimg[0].onclick = function()
+        {
+            productimg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function()
+        {
+            productimg.src = smallimg[0].src;
+        }
+        smallimg[2].onclick = function()
+        {
+            productimg.src = smallimg[0].src;
+        }
+        smallimg[3].onclick = function()
+        {
+            productimg.src = smallimg[0].src;
+        }
+        
+    </script>
+    
+        
+        
+        
+        
+        
+    </body>
+</html>
